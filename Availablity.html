@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Course Availability </title>
+    <link rel="icon" href="IMAGES/BIT.png" style="background-color: #fff;">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        nav {
+            background-color: #666;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .menu-log {
+            right: auto;
+            float: right;
+            background:black;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .footerelement {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1px;
+            text-align: center;
+            /* position: fixed; */
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        select,
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Course Availablity</h1>
+    </header>
+    <nav>
+        <a href="http://127.0.0.1:5500/HomePage.html#" target="_blank">Home</a>
+        <a href="http://127.0.0.1:5500/Availablity.html" target="_blank">Courses</a>
+        <a href="http://127.0.0.1:5500/Registration.html#" target="_blank">Registration</a>
+        <a href="http://127.0.0.1:5500/Dashborad.html" target="_blank">Dashboard</a>
+        <div class="menu-log">
+            <a href="#login">LOG-OUT</a>
+        </div>
+
+    </nav>
+    <div class="container">
+        <h2>Course Availability</h2>
+        <form action="#" method="GET">
+            <label for="semester">Select Semester:</label>
+            <select id="semester" name="semester" required>
+                <option value="">Select Semester</option>
+                <option value="1">Semester 4</option>
+                <option value="2">Semester 5</option>
+                <option value="3">Semester 6</option>
+                <option value="3">Semester 7</option>
+                <!-- Add more options for different semesters -->
+            </select>
+            <label for="course_type">Select Course Type:</label>
+            <select id="course_type" name="course_type" required>
+                <option value="">Departmet Courses </option>
+                <option value="department">Departmental Courses</option>
+            </select>
+            <label for="course_type">Select Course Type:</label>
+            <select id="course_type" name="course_type" required>
+                <option value="">Select Course Type</option>
+                <option value="elective">Elective Courses</option>
+                <option value="Honours">Honours</option>
+                <option value="Minors">Minors</option>
+            </select>
+            <input type="submit" value="Search">
+        </form>
+        <h2>Available Courses</h2>
+        <ul>
+            <li> Available Course 1</li>
+            <li> Available Course 2</li>
+            <li> Available Course 3</li>
+            <li> Available Course 4</li>
+            <li> Available Course 5</li>
+            <li> Available Course 6</li>
+            <li> Available Course 7</li>
+            <li> Available Course 8</li>
+            <li> Available Course 9</li>
+            <li> Available Course 10</li>
+            <li> Available Course 11</li>
+            <li> Available Course 12</li>
+        </ul>
+    </div>
+    
+    <footer>
+        <p class="footerelement"> Course Registration </p>
+        <a href="https://www.bitsathy.ac.in/" target="_blank"> www.bitsathy.ac.in </a>
+    </footer>
+</body>
+</html>

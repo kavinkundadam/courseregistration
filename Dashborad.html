@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="icon" href="IMAGES/BIT.png" style="background-color: #fff;">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        nav {
+            background-color: #666;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .menu-log {
+            right: auto;
+            float: right;
+            background:black;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .footerelement {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1px;
+            text-align: center;
+            /* position: fixed; */
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .student-details {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Course Availablity</h1>
+    </header>
+    <nav>
+        <a href="http://127.0.0.1:5500/HomePage.html#" target="_blank">Home</a>
+        <a href="http://127.0.0.1:5500/Availablity.html" target="_blank">Courses</a>
+        <a href="http://127.0.0.1:5500/Registration.html#" target="_blank">Registration</a>
+        <a href="http://127.0.0.1:5500/Dashborad.html" target="_blank">Dashboard</a>
+
+        <div class="menu-log">
+            <a href="#login">LOG-OUT</a>
+        </div>
+
+    </nav>
+    <div class="container">
+        <h2>Student Dashboard</h2>
+        <div class="student-details">
+            <h3>Student: KAVIN (211EE138)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Course Name</th>
+                        <th>Semester</th>
+                        <th>Department</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>211EE401</td>
+                        <td>MACHINES I</td>
+                        <td>IV</td>
+                        <td>EEE</td>
+                    </tr>
+                    <tr>
+                        <td>211EE402</td>
+                        <td>POWER SYSTEMS</td>
+                        <td>IV</td>
+                        <td>EEE</td>
+                    </tr>
+                    <tr>
+                        <td>211EE403</td>
+                        <td>DIGITIAL SINAL PROCESSING</td>
+                        <td>IV</td>
+                        <td>EEE</td>
+                    </tr>
+                    <tr>
+                        <td>211EE404</td>
+                        <td>WIND POWER TECHNOLOGY</td>
+                        <td>IV</td>
+                        <td>EEE</td>
+                    </tr>
+                    <tr>
+                        <td>211EE405</td>
+                        <td>SWITCH GEAR PROTECTION</td>
+                        <td>IV</td>
+                        <td>EEE</td>
+                    </tr>
+                    <tr>
+                        <td>211EE406</td>
+                        <td>POWER ELECTRONICS</td>
+                        <td>IV</td>
+                        <td>EEE</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footerelement"> Course Registration </p>
+        <a href="https://www.bitsathy.ac.in/" target="_blank"> www.bitsathy.ac.in </a>
+    </footer>
+</body>
+</html>

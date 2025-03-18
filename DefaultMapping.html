@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Default - Course Registration</title>
+    <link rel="icon" href="IMAGES/BIT.png" style="background-color: #fff;">  
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        .footerelement {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        .course {
+            margin-bottom: 10px;
+        }
+        .course-name {
+            font-weight: bold;
+            padding: 2px;
+        }
+        .menu-log {
+            right: auto;
+            float: right;
+            background:black;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        .register-btn {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Course Registration</h1>
+    </header>
+    <nav>
+        <a href="http://127.0.0.1:5500/HomePage.html#" target="_blank">Home</a>
+        <a href="http://127.0.0.1:5500/Availablity.html" target="_blank">Courses</a>
+        <a href="http://127.0.0.1:5500/Registration.html#" target="_blank">Registration</a>
+        <a href="http://127.0.0.1:5500/Dashborad.html" target="_blank">Dashboard</a>
+
+        <div class="menu-log">
+            <a href="#login">LOG-OUT</a>
+        </div>
+
+    </nav>
+    <div class="container">
+        <h2>Available Courses</h2>
+        <p> Department courses upto 3rd semester </p>
+        <div class="course">
+            <ul>
+                <li> Available Course 1</li>
+                <li> Available Course 2</li>
+                <li> Available Course 3</li>
+                <li> Available Course 4</li>
+                <li> Available Course 5</li>
+                <li> Available Course 6</li>
+            </ul>
+        </div>
+        <button class="register-btn">Register</button>
+    </div>
+    <footer>
+        <p class="footerelement"> Course Registration </p>
+        <a href="https://www.bitsathy.ac.in/" target="_blank"> www.bitsathy.ac.in </a>
+    </footer>
+</body>
+</html>
